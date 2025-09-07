@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624305839837",
+    "project_id": "creditsea-ec6e4",
+    "storage_bucket": "creditsea-ec6e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624305839837:android:cef0bf1ac855c3d7f1c534",
+        "android_client_info": {
+          "package_name": "com.example.mobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFgNas7sIaGN69lPmpd4UB0fzmDGcTeD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
