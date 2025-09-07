@@ -67,9 +67,7 @@ Main dependencies used in this project:
 1. **Clone the repository**
    ```sh
    git clone https://github.com/sabin6969/creditsea-mobile-app
-   cd mobileapp
-   flutter pub get
-   flutter run
+   cd creditsea-mobile-app
    ```
 
 2. **Install dependencies**
