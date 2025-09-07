@@ -9,7 +9,6 @@ import 'package:mobileapp/repository/auth/loan_repository.dart';
 import 'package:mobileapp/routes/route_generator.dart';
 import 'package:mobileapp/services/notification/local_notification_service.dart';
 import 'package:mobileapp/view/auth/create_account_view.dart';
-import 'package:mobileapp/view/calculator/calculator_view.dart';
 import 'package:mobileapp/view/home/home_page.dart';
 import 'package:mobileapp/viewmodel/loan_view_model.dart';
 import 'package:mobileapp/viewmodel/otp_view_model.dart';
@@ -77,7 +76,7 @@ class MyApp extends StatelessWidget {
             return MaterialApp(
               title: "Credit Sea",
               theme: ThemeData(fontFamily: "montserrat"),
-              home: isValid ? CalculatorView() : CreateAccountView(),
+              home: isValid ? HomePage() : CreateAccountView(),
               debugShowCheckedModeBanner: false,
               onGenerateRoute: RouteGenerator.generateRoute,
             );
